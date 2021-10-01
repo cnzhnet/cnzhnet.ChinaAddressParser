@@ -10,7 +10,7 @@
 }
 ```
 ## C#实现版本
-提供安整项目解决方案，核心实现在 /cnzhnet.ChinaAddressParser/Parser。示例：    
+提供 .net core 5 完整项目解决方案，核心实现在 /cnzhnet.ChinaAddressParser/Parser。无任何依赖，可轻松移植代码至 .net framework/.net core 2.x/.net core 3.x/.net 6。不需要数据库或任何数据文件的支持，示例：    
 ```C#
 AddressInformation address;
 using (AddressParser parser = new AddressParser())
